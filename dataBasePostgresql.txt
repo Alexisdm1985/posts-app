@@ -1,0 +1,9 @@
+CREATE TABLE post (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(250),
+    descripcion VARCHAR(250)
+);
+
+
+INSERT INTO post (nombre, descripcion)
+    VALUES('nomrbePrueba', 'descripcionPrueba');
